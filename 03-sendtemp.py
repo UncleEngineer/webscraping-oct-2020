@@ -38,7 +38,7 @@ for i in range(20,40):
 print(alltext)
 # ได้ข้อความทั้งหมดแล้วก็ทำการส่ง Line
 from songline import Sendline
-token = 'xm4K7kqtfU1yfybWQUm2GDLhxZYOeVAQCoUeYMpK7HP'
+token = 'xm4K7kqtfU1yfybWQUm2GDLhxZYOeVAQCssssoUeYMpK7HP'
 messenger = Sendline(token)
 messenger.sendtext(alltext)
 
